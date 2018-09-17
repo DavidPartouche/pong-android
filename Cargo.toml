@@ -1,0 +1,12 @@
+[package]
+name = "pong"
+version = "0.1.0"
+authors = []
+
+[dependencies]
+amethyst = { path = "/home/david/Projects/rust/amethyst/amethyst_src" }
+
+[package.metadata.android]
+
+package_name = "rs.amethyst.pong"
+assets = "texture"
